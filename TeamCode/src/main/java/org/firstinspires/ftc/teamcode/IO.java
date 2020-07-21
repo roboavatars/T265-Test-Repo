@@ -41,7 +41,6 @@ public class IO extends LinearOpMode {
 //            gamepad1.right_trigger;
 //
 //            gamepad2.a;
-//            ...
 
             telemetry.addData("Motor Power: ", motor.getPower());
             telemetry.addData("Servo Position: ", servo.getPosition());
