@@ -1,6 +1,5 @@
 package org.firstinspires.ftc.teamcode.RobotClasses;
 
-import com.acmerobotics.dashboard.config.Config;
 import com.arcrobotics.ftclib.geometry.Pose2d;
 import com.arcrobotics.ftclib.geometry.Rotation2d;
 import com.arcrobotics.ftclib.geometry.Transform2d;
@@ -10,14 +9,13 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.spartronics4915.lib.T265Camera;
 
 @SuppressWarnings("FieldCanBeLocal")
-@Config
 public class T265 {
 
     // Electronics
     private T265Camera t265Cam;
 
     // Constants
-    public static double ODOMETRY_COVARIANCE = 1;
+    private final double ODOMETRY_COVARIANCE = 1;
     private final double INCH_TO_METER = 0.0254;
 
     // Position Variables
