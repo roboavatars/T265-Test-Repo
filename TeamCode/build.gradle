@@ -15,5 +15,18 @@
 apply from: '../build.common.gradle'
 
 android {
-    buildToolsVersion '30.0.1'
+    buildToolsVersion = '29.0.2'
+}
+
+repositories {
+    jcenter()
+
+    maven {
+        url "https://maven.0x778.tk"
+    }
+}
+
+dependencies {
+    implementation 'org.openftc:easyopencv:1.4.1'
+    implementation 'com.spartronics4915.lib:ftc265:2.0.1'
 }
