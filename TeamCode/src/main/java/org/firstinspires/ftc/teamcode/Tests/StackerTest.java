@@ -7,6 +7,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.RobotClasses.Stacker;
 
 @TeleOp(name="Stacker Test") @SuppressWarnings("FieldCanBeLocal")
+@Disabled
 public class StackerTest extends LinearOpMode {
 
     private Stacker stacker;

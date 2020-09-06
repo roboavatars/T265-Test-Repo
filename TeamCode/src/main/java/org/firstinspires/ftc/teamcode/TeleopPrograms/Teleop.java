@@ -13,6 +13,7 @@ import org.firstinspires.ftc.teamcode.RobotClasses.Robot;
 import java.util.Arrays;
 
 @TeleOp
+@Disabled
 public class Teleop extends LinearOpMode {
 
     private Robot robot;

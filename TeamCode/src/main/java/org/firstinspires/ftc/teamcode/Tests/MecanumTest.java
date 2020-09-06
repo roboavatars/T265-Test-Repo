@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 @TeleOp
+@Disabled
 public class MecanumTest extends LinearOpMode {
 
     private Robot robot;

@@ -3,6 +3,7 @@ package org.firstinspires.ftc.teamcode.AutoPrograms;
 import android.util.Log;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 @Autonomous(name = "5 block blue new mode")
+@Disabled
 public class fiveBlockBLueNew extends LinearOpMode {
 
     private Robot robot;

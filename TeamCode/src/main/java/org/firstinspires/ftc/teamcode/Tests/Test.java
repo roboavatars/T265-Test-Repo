@@ -7,6 +7,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.Servo;
 
 @TeleOp //@Config
+@Disabled
 public class Test extends LinearOpMode {
 
     private Servo extendoServo;

@@ -1,6 +1,7 @@
 package org.firstinspires.ftc.teamcode.OpenCV.webcamstuff;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Autonomous(name = "Webcam")
+@Disabled
 public class webcamTest extends LinearOpMode {
 
     private final static String basePath = "/sdcard/FIRST/input/";

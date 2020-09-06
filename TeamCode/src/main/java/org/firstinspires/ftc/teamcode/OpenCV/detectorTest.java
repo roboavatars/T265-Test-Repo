@@ -5,6 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 @Autonomous(name = "OpenCV")
+@Disabled
 public class detectorTest extends LinearOpMode {
 
     private final int ssAligned = 125;
